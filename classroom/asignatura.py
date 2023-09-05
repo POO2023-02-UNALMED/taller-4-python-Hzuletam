@@ -5,5 +5,5 @@ class Asignatura:
         self._salon = salon
 
     def __str__(self):
-        cadena= self.nombre + " " + self._salon
+        cadena= f"{self.nombre} {self._salon}"
         return cadena
